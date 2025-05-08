@@ -1,0 +1,82 @@
+{
+  "a_noite_dos_mortos_vivos": {
+    "title": "A Noite dos Mortos-Vivos",
+    "overview": "Um grupo de pessoas se refugia em uma casa enquanto mortos-vivos atacam.",
+    "company": "Fox Entertainment",
+    "release_year": 1970,
+    "featured": "Clássico do gênero, dirigido por George A. Romero.",
+    "cover": "https://example.com/noite_dos_mortos_vivos.jpg"
+  },
+  "madrugada_dos_mortos": {
+    "title": "Madrugada dos Mortos",
+    "overview": "Sobreviventes se abrigam em um shopping durante um apocalipse zumbi.",
+    "company": "Universal Pictures",
+    "release_year": 2004,
+    "featured": "Remake do clássico de Romero, dirigido por Zack Snyder.",
+    "cover": "https://example.com/madrugada_dos_mortos.jpg"
+  },
+  "exterminio": {
+    "title": "Extermínio",
+    "overview": "Um vírus transforma pessoas em criaturas violentas e rápidas.",
+    "company": "Fox Entertainment",
+    "release_year": 2002,
+    "featured": "Introduziu zumbis ágeis ao gênero.",
+    "cover": "https://example.com/exterminio.jpg"
+  },
+  "guerra_mundial_z": {
+    "title": "Guerra Mundial Z",
+    "overview": "Um ex-investigador da ONU tenta impedir uma pandemia global de zumbis.",
+    "company": "Paramount Pictures",
+    "release_year": 2013,
+    "featured": "Baseado no livro de Max Brooks, estrelado por Brad Pitt.",
+    "cover": "https://example.com/guerra_mundial_z.jpg"
+  },
+  "zumbilandia": {
+    "title": "Zumbilândia", 
+    "overview": "Um grupo de sobreviventes atravessa os EUA enfrentando zumbis.",
+    "company": "Columbia Pictures",
+    "release_year": 2009,
+    "featured": "Comédia de terror com Woody Harrelson e Jesse Eisenberg.",
+    "cover": "https://example.com/zumbilandia.jpg"
+  },
+  "invasao_zumbi": {
+    "title": "Invasão Zumbi",
+    "overview": "Passageiros de um trem tentam sobreviver a um surto zumbi.",
+    "company": "Next Entertainment World",
+    "release_year": 2016,
+    "featured": "Filme sul-coreano aclamado pela crítica.",
+    "cover": "https://example.com/invasao_zumbi.jpg"
+  },
+  "shaun_of_the_dead": {
+    "title": "Shaun of the Dead",
+    "overview": "Um homem tenta salvar seus amigos e familiares durante um apocalipse zumbi.",
+    "company": "Universal Pictures",
+    "release_year": 2004,
+    "featured": "Comédia britânica que homenageia o gênero.",
+    "cover": "https://example.com/shaun_of_the_dead.jpg"
+  },
+  "resident_evil_o_hospede_maldito": {
+    "title": "Resident Evil: O Hospede Maldito",
+    "overview": "Uma equipe de elite investiga um laboratório onde um vírus mortal foi liberado.",
+    "company": "Screen Gems",
+    "release_year": 2002,
+    "featured": "Baseado na famosa franquia de videogames.",
+    "cover": "https://example.com/resident_evil.jpg"
+  },
+  "o_exercito_dos_mortos": {
+    "title": "O Exército dos Mortos",
+    "overview": "Mercenários tentam roubar um cassino em meio a um surto zumbi em Las Vegas.",
+    "company": "Netflix",
+    "release_year": 2021,
+    "featured": "Dirigido por Zack Snyder, mistura ação e terror.",
+    "cover": "https://example.com/exercito_dos_mortos.jpg"
+  },
+  "um_corte_dos_mortos": {
+    "title": "Um Corte dos Mortos",
+    "overview": "Uma equipe de filmagem enfrenta um verdadeiro ataque zumbi durante as gravações.",
+    "company": "Enbu Seminar",
+    "release_year": 2017,
+    "featured": "Filme japonês inovador e surpreendente.",
+    "cover": "https://example.com/um_corte_dos_mortos.jpg"
+  }
+}
