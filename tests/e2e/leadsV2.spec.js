@@ -1,53 +1,7 @@
 const { test, expect } = require('../support');
 const { faker } = require('@faker-js/faker');
 
-test('Deve cadastrar um lead na fila de espera - getByRole', async ({ page }) => {
-  //const landingPage = new LadingPage(page);
-
-  await page.Leads.visit();
-  await page.getByRole('button', { name: 'Aperte o play... se tiver coragem' }).click();
-});
-
-test('Deve cadastrar um lead na fila de espera - click', async ({ page }) => {
-  //const landingPage = new LadingPage(page);
-
-  await page.Leads.visit();
-  await page.click('//button[text()="Aperte o play... se tiver coragem"]');
-  await page.locator('#name').fill('Welington M S Nunes');
-  await page.locator('#email').fill('wetonunes@gmail.com');
-  await page.click('//button[text() = "Quero entrar na fila!"]');
-});
-
-test('Deve cadastrar um lead na fila de espera - click2', async ({ page }) => {
-  //const landingPage = new LadingPage(page);
-
-  await page.Leads.visit();
-  await page.getByRole('button', { name: /Aperte o play/ }).click();
-  await page.locator('#name').fill('Welington M S Nunes');
-  await page.locator('#email').fill('wetonunes@gmail.com');
-});
-
-test('Deve cadastrar um lead na fila de espera - click3', async ({ page }) => {
-  //const landingPage = new LadingPage(page);
-
-  await page.Leads.visit();  
-  await page.getByRole('button', { name: /Aperte o play/ }).click();
-  await page.locator('input[name=name]').fill('Welington M S Nunes');
-  await page.locator('input[name=email]').fill('wetonunes@gmail.com');
-});
-
-test('Deve cadastrar um lead na fila de espera - click4', async ({ page }) => {
-  //const landingPage = new LadingPage(page);
-
-  await page.Leads.visit();
-  await page.getByRole('button', { name: /Aperte o play/ }).click();
-  await page.locator('input[placeholder="Informe seu nome"]').fill('Welington M S Nunes');
-  await page.locator('input[placeholder="Informe seu email"]').fill('wetonunes@gmail.com');
-  await page.getByRole('button', { name: /Quero entrar na fila/ }).click();
-});
-
-//Caminho feliz
-test('Deve cadastrar um lead na fila de espera - click5', async ({ page }) => {
+test('Deve cadastrar um lead na fila de espera', async ({ page }) => {
   //const landingPage = new LadingPage(page);
   const leadName = faker.person.fullName(); 
   const leadEmail = faker.internet.email(); 
